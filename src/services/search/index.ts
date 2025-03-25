@@ -41,7 +41,6 @@ export const getRandomPokemon = async (maxId: number = 898): Promise<Pokemon> =>
   }
 };
 
-// Função combinada para facilitar o uso
 export const advancedSearch = async (params: SearchParams): Promise<Pokemon[]> => {
   try {
     if (params.types && params.types.length > 0) {
